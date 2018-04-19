@@ -10,7 +10,6 @@ DNI_("000000000")
 
 //Constructor que recibe un string por parametros y crea un DNI con esos datos recibidos.        
 DNI::DNI(string DNI_entrada)
-
 {
     
    for (int i = 0; i < 9; i++) {
@@ -49,9 +48,6 @@ void DNI::set_random(void){
     for(int i=8;i<9;i++){
         DNI_[i] = rand() % 26 + 65; // 26 el tamaño del alfabeto y 65 donde empieza la letra A en ASCII
     }
-    
-    
-        
 }
 
 //Sobrecarga del Operador "<"

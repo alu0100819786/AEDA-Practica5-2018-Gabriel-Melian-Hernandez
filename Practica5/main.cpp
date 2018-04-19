@@ -47,9 +47,25 @@ int main (void){
 	srand(time(NULL));
 
 	unsigned opc = 2;
-	int ct_pruebas = 300;
+	int ct_pruebas = 10;
 	unsigned alg_ejecutar = 100;
 	int tam_secuencia, num_rep;
+	
+	
+/*	vector<DNI> vector_DNI(ct_pruebas);
+	vector_DNI[0].set_DNI("11111111E");
+	vector_DNI[1].set_DNI("11111111A");
+	vector_DNI[2].set_DNI("11111111F");
+	vector_DNI[3].set_DNI("11111111S");
+	vector_DNI[4].set_DNI("11111111Q");
+	vector_DNI[5].set_DNI("11111111D");
+	vector_DNI[6].set_DNI("11111111G");
+	vector_DNI[7].set_DNI("11111111B");
+	vector_DNI[8].set_DNI("11111111U");
+	vector_DNI[9].set_DNI("11111111P");*/
+	
+	
+	
 
 	while (opc != 0 && opc != 1){
 		cout << "================ " << "ORDENACION" << " =================" << endl;
